@@ -1,0 +1,14 @@
+.win-modal{
+    position: absolute;
+    display: flex;
+    width: 50%;
+    height: 10%;
+    background-color: rgba(0, 0, 0, 0.57);
+    z-index: 1;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    top: 15%;
+    color: whitesmoke;
+    font-size: 30px;
+}

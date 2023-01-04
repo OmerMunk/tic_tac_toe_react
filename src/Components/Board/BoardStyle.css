@@ -1,0 +1,18 @@
+.board {
+    margin-top: 5%;
+    width: 500px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.board-row{
+    display: flex;
+    justify-content: space-around;
+    height: 100%;
+}
+
+.board:hover{
+    cursor: pointer;
+}

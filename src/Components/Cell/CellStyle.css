@@ -1,0 +1,29 @@
+:root{
+    --transition-duration-- : 0.3s;
+}
+
+.cell {
+    margin: 1px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    background-color: #e1e0e0;
+    border: none;
+    border-radius: 6px;
+    text-align: center;
+    font-size: 50px;
+    transition: background-color, box-shadow;
+    transition-duration: var(--transition-duration--);
+    z-index: 0;
+
+}
+
+.cell:hover{
+    background-color: rgba(221, 221, 221, 0.75);
+    box-shadow : 0 0 4px 6px rgba(14, 24, 52, 0.6);
+    z-index: 1;
+    transition: background-color, box-shadow;
+    transition-duration: var(--transition-duration--);
+}
